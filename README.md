@@ -4,6 +4,8 @@ An [MCP](https://modelcontextprotocol.io) server that lets AI assistants (Claude
 
 Built for DHBW Stuttgart, works with any Moodle instance.
 
+Inspired by [bunizao/moodle-cli](https://github.com/bunizao/moodle-cli), which pioneered borrowing the browser's Moodle session for agents. `moodle-mcp` is a minimal, independent reimplementation: one Python file, no Node, four tools. If you want a full-featured CLI with more Moodle features and browsers, use moodle-cli.
+
 ## The problem
 
 University Moodle instances usually sit behind SSO, have no API tokens for students, and bury lecture slides in nested folders. Getting material into an AI study workflow means clicking through every course and downloading files by hand.
